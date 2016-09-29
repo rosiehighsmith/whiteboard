@@ -1,0 +1,53 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import 'https://fonts.googleapis.com/css?family=Permanent+Marker';
+@import 'https://fonts.googleapis.com/css?family=Rock+Salt';
+
+.navbar.navbar-inverse {
+  border-radius: 0;
+  box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: 'Rock Salt', cursive;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 0.8px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: gray;
+}
+
+.about-page {
+  padding: 50px;
+}
+
+.about-page img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+}
+
+body {
+  background: url('/assets/contemporary_china.png');
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.todo_list_title a {
+    text-decoration: none;
+    color: #1930C2;
+    transition: all .4s ease-in-out;
+}
+
+.grey {
+    height: 3px;
+    background-color: black;
+    border: none;
+    width: 150px;
+}
+
