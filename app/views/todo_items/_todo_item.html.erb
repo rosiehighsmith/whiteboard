@@ -1,4 +1,5 @@
 <div class="row clearfix">
+  <div class = "col-xs-10 col-xs-offset-1">
   <% if todo_item.completed? %>
     <div class="complete">
       <%= link_to complete_todo_list_todo_item_path(@todo_list, todo_item.id), method: :patch do %>
@@ -28,4 +29,5 @@
       <% end %>
     </div>
   <% end %>
+  </div>
 </div>

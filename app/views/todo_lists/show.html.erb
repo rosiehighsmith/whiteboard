@@ -10,10 +10,12 @@
 
 <div id = "todo_items_wrapper">
   <%= render @todo_list.todo_items %>
-  <div id = "form">
+  <div id = "form" class = "col-xs-10 col-xs-offset-1">
     <%= render "todo_items/form" %>
   </div>
 </div>  
+
+<div class = "clear"></div>
 
 <div class="links">
   <%= link_to 'Edit', edit_todo_list_path(@todo_list) %> |

@@ -1,24 +1,22 @@
-# README
+# NOMSTER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Synopsis
 
-Things you may want to cover:
+Nomster is a **Yelp clone** built with the **Ruby on Rails** framework. It allows user authentication to sign up, create restaurants, and post reviews. Check it out [here](http://nomster-rosie-highsmith.herokuapp.com/)!
 
-* Ruby version
+## Features
 
-* System dependencies
+- Google Maps API so users can see the restaurant's location
 
-* Configuration
+- Twitter Bootstrap 3 for CSS components
 
-* Database creation
+- Profile page to view user statistics, like restaurants created and posted about
 
-* Database initialization
+- Amazon Web Services, S3, for photo storage when users upload photos of restaurants
 
-* How to run the test suite
+- Devise for forms and user security
 
-* Services (job queues, cache servers, search engines, etc.)
+## App Snapshot
 
-* Deployment instructions
+![alt tag](http://i.imgur.com/JzrWBfh.png)
 
-* ...

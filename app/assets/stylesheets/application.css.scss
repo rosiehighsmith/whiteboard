@@ -71,6 +71,7 @@ body {
   margin: 4em auto 0 auto;
   border-radius: 7px;
   border: 4px solid #9C9C9C;
+  border-bottom: 8px solid #9C9C9C;
   -webkit-box-shadow: 0 0 4px 3px rgba(0,0,0,.3);
   box-shadow: 0 0 4px 4px rgba(0,0,0,.03);
   padding: .5em 0;
@@ -82,8 +83,8 @@ body {
   font-size: 2.9rem;
   text-transform: uppercase;
   margin: 0;
-  font-family: 'Baloo Bhai', cursive;
-  a {
+  font-family: 'Josefin Sans', sans-serif;
+    a {
     text-decoration: none;
     transition: all .4s ease-in-out;
     &:hover {
@@ -99,7 +100,7 @@ body {
   font-size: 20px;
   color: black;
   font-weight: 100;
-  font-family: 'Baloo Bhai', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .index_row {
@@ -185,7 +186,7 @@ body {
   color: white;
   a {
     color: #CF3A3A;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Josefin Sans', sans-serif;
   }
 }
 
