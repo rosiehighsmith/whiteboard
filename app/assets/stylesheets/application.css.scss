@@ -26,7 +26,7 @@ html {
 
 header li {
   display: inline-block;
-  font-size: 12px;
+  font-size: 1.5em;
   width: 100px;
   font-weight: bold;
   margin-top: 30px;
@@ -39,7 +39,8 @@ header li {
 }
 
 body {
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
 }
 
 .clearfix:before,
@@ -59,21 +60,21 @@ body {
 
 #notice {
   text-align: center;
-  font-size: 16px;
+  jze: 18px;
   color: red;
   font-weight: 100;
 }
 
 .container {
   width: 60%;
+  height: 480px;
   max-width: 750px;
   background: white;
   margin: 4em auto 0 auto;
   border-radius: 7px;
   border: 4px solid #9C9C9C;
-  border-bottom: 8px solid #9C9C9C;
+  box-shadow: 0 4px 2px -2px gray;
   -webkit-box-shadow: 0 0 4px 3px rgba(0,0,0,.3);
-  box-shadow: 0 0 4px 4px rgba(0,0,0,.03);
   padding: .5em 0;
 }
 
@@ -94,7 +95,7 @@ body {
 }
 
 .todo_list_sub_title {
-  margin: 0 0 3em 0;
+  margin: 0 0 20px 0;
   text-align: center;
   text-transform: lowercase;
   font-size: 20px;
@@ -127,6 +128,7 @@ body {
         padding: 1em;
         color: black;
         font-weight: 100;
+        font-size: 18px;
       }
     }
     .trash {
@@ -150,20 +152,22 @@ body {
     input[type="text"] {
       width: 72%;
       margin-right: 2%;
-      background: #D6D6D6;
+      background: #E3E3E3;
       display: inline-block;
       outline: none;
+      font-size: 18px;
       border: none;
       height: 40px;
       border-radius: 4px;
       padding: 1em 2em;
     }
     input[type="submit"] {
-      background: #D6D6D6;
+      background: #1930C2;
       outline: none;
       border: none;
       height: 40px;
-      color:black;
+      font-size: 18px;
+      color:white;
       border-radius: 4px;
       width: 25%;
       display: inline-block;
@@ -181,9 +185,9 @@ body {
   display: block;
   margin: 0.5em auto 0 auto;
   text-align: center;
-  text-decoration: underline;
-  font-size: 1.9em;
-  color: white;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  color: #CF3A3A;
   a {
     color: #CF3A3A;
     font-family: 'Josefin Sans', sans-serif;
@@ -194,24 +198,26 @@ body {
   padding: 0 5%;
 }
 label {
-  color: $dark;
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
 }
 input[type="text"], textarea {
   width: 100%;
   margin: .5em 2% 1em 0;
   display: inline-block;
   outline: none;
-  background: rgba(250,250,250,.4);
+  background: #E3E3E3;
   border: none;
   height: 40px;
   border-radius: 4px;
   padding: 1em 2em;
 }
 textarea {
-  height: 200px;
+  height: 150px;
 }
 input[type="submit"] {
-  background: white;
+  background: #1930C2;
   outline: none;
   border: none;
   height: 40px;
@@ -220,10 +226,10 @@ input[type="submit"] {
   display: inline-block;
   transition: all .4s ease-in-out;
   cursor: pointer;
-  color: $dark;
+  color: white;
   &:hover {
-    background: $dark;
+    background: red;
     color: white;
   }
 }
-::-webkit-input-placeholder { color: $dark; }
+::-webkit-input-placeholder { color: black; }
