@@ -1,6 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import 'https://fonts.googleapis.com/css?family=Permanent+Marker';
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhai';
 @import 'https://fonts.googleapis.com/css?family=Rock+Salt';
 
 .navbar.navbar-inverse {
@@ -36,6 +36,12 @@ h1 {
 body {
   background: url('/assets/contemporary_china.png');
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.todo_list_title {
+    text-decoration: none;
+    color: #1930C2;
+    transition: all .4s ease-in-out;
 }
 
 .todo_list_title a {
