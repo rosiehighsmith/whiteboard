@@ -18,3 +18,10 @@ Whiteboard is a **To Do App** built with the **Ruby on Rails** framework. Users 
 
 ## App Snapshot
 
+Here's a glimpse of the home page, which lists all the current To Do Lists:
+
+![alt tag](http://i.imgur.com/cKyYhNR.png)
+
+An example of a To Do List show page:
+
+![alt tag](http://i.imgur.com/npyVRSl.png)
