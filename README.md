@@ -1,22 +1,20 @@
-# NOMSTER
+# WHITEBOARD
 
 ## Synopsis
 
-Nomster is a **Yelp clone** built with the **Ruby on Rails** framework. It allows user authentication to sign up, create restaurants, and post reviews. Check it out [here](http://nomster-rosie-highsmith.herokuapp.com/)!
+Whiteboard is a **To Do App** built with the **Ruby on Rails** framework. Users can create new to do lists, edit or delete them, and mark items when they are complete. It lives [here](http://whiteboard-rosie-highsmith.herokuapp.com/)!
 
-## Features
-
-- Google Maps API so users can see the restaurant's location
+## Current Features
 
 - Twitter Bootstrap 3 for CSS components
 
-- Profile page to view user statistics, like restaurants created and posted about
+- Google Fonts to customize branding and page fonts
 
-- Amazon Web Services, S3, for photo storage when users upload photos of restaurants
+## Future Features
 
-- Devise for forms and user security
+- User authentication with Devise in order to have private, personal to do lists
+
+- Allows sharing of lists to others
 
 ## App Snapshot
-
-![alt tag](http://i.imgur.com/JzrWBfh.png)
 
