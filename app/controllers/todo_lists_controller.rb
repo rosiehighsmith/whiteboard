@@ -1,6 +1,6 @@
  class TodoListsController < ApplicationController
   before_action :set_todo_list, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, only: [:index]
+  before_action :authenticate_user!, only: [:show, :new, :edit, :create, :update, :destroy]
 
   # GET /todo_lists
   # GET /todo_lists.json
