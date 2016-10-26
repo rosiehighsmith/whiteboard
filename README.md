@@ -6,6 +6,10 @@ Whiteboard is a **To Do App** built with the **Ruby on Rails** framework. Users 
 
 ## Current Features
 
+- Devise gem for user authentication to limit access to creating todo lists
+
+- Simple_Form gem for sign up and log in forms
+
 - Twitter Bootstrap 3 for CSS components
 
 - Google Fonts to customize branding and page fonts
