@@ -16,9 +16,9 @@ Whiteboard is a **To Do App** built with the **Ruby on Rails** framework. Users 
 
 ## Future Features
 
-- User authentication with Devise in order to have private, personal to do lists
+- Allows sharing of lists to other users
 
-- Allows sharing of lists to others
+- Pagination of todo lists to allow consistent whiteboard sizing and allow containment of lists
 
 ## App Snapshot
 
